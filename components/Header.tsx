@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
+import Link from 'next/link'
 
 export default function Header() {
   return (
@@ -10,12 +11,22 @@ export default function Header() {
         <p>Sisters Mehndi</p>
       </div>
       {/* RIGHT */}
-      <div className="flex space-x-8 mr-4">
-        <p className="cursor-pointer hover:text-lg">Home</p>
-        <p className="cursor-pointer hover:text-lg">Services</p>
-        <p className="cursor-pointer hover:text-lg">Gallery</p>
-        <p className="cursor-pointer hover:text-lg">About</p>
-        <p className="cursor-pointer hover:text-lg">Contact</p>
+      <div className="lg:inline-flex space-x-8 mr-4 hidden">
+        <Link href="/">
+          <p className="cursor-pointer hover:text-lg">Home</p>
+        </Link>
+        <Link href="/services">
+          <p className="cursor-pointer hover:text-lg">Services</p>
+        </Link>
+        <Link href="/gallery">
+          <p className="cursor-pointer hover:text-lg">Gallery</p>
+        </Link>
+        <Link href="/about">
+          <p className="cursor-pointer hover:text-lg">About</p>
+        </Link>
+        <Link href="/contact">
+          <p className="cursor-pointer hover:text-lg">Contact</p>
+        </Link>
       </div>
     </div>
   )

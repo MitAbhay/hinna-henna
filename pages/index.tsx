@@ -14,17 +14,19 @@ const Home: NextPage = () => {
           <h1 className=" text-amber-500 text-8xl font-bold ">
             Sisters Mehndi
           </h1>
-          <p className="">
+          <p className="font-serif italic mt-2 ml-2">
             A place where you can satisfy your hands and heart with mehndi.
           </p>
         </div>
-        <div className="relative h-300 w-300">
-          <Image src="/Images/mehndi-logo.png" layout="fill" />
-          <p>dhgd</p>
+        <div>
+          {/* <Image
+          src="/Images/mehndi-logo.png"
+          width={500}
+          height={500}
+          layout="fill"
+        /> */}
         </div>
       </div>
-
-      
     </div>
   )
 }
