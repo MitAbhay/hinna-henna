@@ -44,7 +44,7 @@ export default function () {
       </div>
       <div className="mt-2">
         <hr />
-        <p className="text-center">copyrignt © || 2022</p>
+        <p className="text-center">copyrignt © 2022 || Sisters Mehndi </p>
       </div>
     </div>
   )
