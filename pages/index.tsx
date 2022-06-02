@@ -1,6 +1,8 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import { Carousel } from 'react-responsive-carousel'
+import 'react-responsive-carousel/lib/styles/carousel.min.css'
 
 const Home: NextPage = () => {
   return (
@@ -18,8 +20,28 @@ const Home: NextPage = () => {
             A place where you can satisfy your hands and heart with mehndi.
           </p>
         </div>
-        <div className="mx-8">
-          <img src="/Images/mehndi-logo.png" width={500} height={500} />
+        <div className="mr-32">
+          {/* <img src="/Images/mehndi-logo.png" width={500} height={500} /> */}
+          <Carousel
+            width={350}
+            autoPlay={true}
+            infiniteLoop={true}
+            showThumbs={false}
+            interval={2000}
+          >
+            <div>
+              <img src="/Images/1.jpg" />
+            </div>
+            <div>
+              <img src="/Images/2.jpg" />
+            </div>
+            <div>
+              <img src="/Images/3.gif" />
+            </div>
+            <div>
+              <img src="/Images/4.jpg" />
+            </div>
+          </Carousel>
         </div>
       </div>
       <div className="max-w-2xl mx-auto my-8 text-xl text-center">
