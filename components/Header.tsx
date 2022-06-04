@@ -8,7 +8,7 @@ export default function Header() {
       {/* LEFT */}
       <div className="flex-1 font-extralight text-2xl">
         {/* <Image src="/Images/mehndi-logo.png" layout="fill" /> */}
-        <p>Sisters Mehndi</p>
+        <a href="/"><p className="font-bold font-serif px-2 cursor-pointer">Sisters Mehndi</p></a>
       </div>
       {/* RIGHT */}
       <div className="lg:inline-flex space-x-8 mr-4 hidden">
