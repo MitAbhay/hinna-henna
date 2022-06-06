@@ -15,7 +15,7 @@ export default function () {
             <img src="/Logos/youtube.png" alt="facebook" />
           </div>
         </div>
-        <div className="flex space-x-16">
+        <div className=" hidden lg:flex space-x-16">
           <ul>
             <li className="font-bold">Collobrate</li>
             <li>Collobrate</li>

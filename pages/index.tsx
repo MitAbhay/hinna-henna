@@ -10,7 +10,7 @@ const Home: NextPage = () => {
       <Head>
         <title>Home | Sisters Mehndi</title>
       </Head>
-      <div className="flex items-center shadow-lg mt-8">
+      <div className="lg:flex items-center shadow-lg mt-8 text-center">
         <div className="flex-1 p-16">
           <h1 className="text-8xl">Welcome to</h1>
           <h1 className=" text-amber-500 text-8xl font-bold ">
@@ -20,7 +20,7 @@ const Home: NextPage = () => {
             A place where you can satisfy your hands and heart with mehndi.
           </p>
         </div>
-        <div className="mr-40 my-4 rounded-sm shadow-md">
+        <div className="lg:mr-40 my-4 rounded-sm shadow-md text-center mx-auto">
           {/* <img src="/Images/mehndi-logo.png" width={500} height={500} /> */}
           <Carousel
             width={400}
@@ -46,7 +46,7 @@ const Home: NextPage = () => {
       </div>
       <div className="max-w-2xl mx-auto my-8 text-xl text-center">
         <p className="font-serif">
-          We are two Sisters, can do Mehndi/Henna for just about any occasion.
+          This is platform of sisters, can do Mehndi/Henna for just about any occasion.
           We Specialize in Bridal Mehndi, Sangeet Parties, Engagements, Baby
           Showers, Birthday Parties, Ladies Night outs, School Events, Corporate
           Events and Fundraisers. We love to extend this art form onto cakes and
