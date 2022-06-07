@@ -11,6 +11,7 @@
     "react": "18.1.0",
     "react-dom": "18.1.0",
     "react-grid-gallery": "^0.5.5",
+    "react-hook-form": "^7.31.3",
     "react-photo-gallery": "^8.0.0",
     "react-responsive-carousel": "^3.2.23"
   },
