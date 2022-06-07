@@ -10,16 +10,19 @@ type Inputs = {
 }
 
 function form() {
-  const { submitted, setsubmitted } = useState(false);
+  const [submitted, setsubmitted] = useState(false)
   const {
     register,
     handleSubmit,
     watch,
     formState: { errors },
   } = useForm<Inputs>()
-  const onSubmit: SubmitHandler<Inputs> = (data) => console.log(data)
+  const onSubmit: SubmitHandler<Inputs> = (data) => {
+    console.log(data)
+    setsubmitted(true)
+  }
 
-  return (
+  return !submitted ? (
     <div>
       <form
         onSubmit={handleSubmit(onSubmit)}
@@ -84,10 +87,18 @@ function form() {
             <option value="girls">Girls Night Out</option>
           </select>
         </div>
-        <div className="p-4 shadow-lg bg-yellow-400 text-white text-2xl rounded-lg cursor-pointer">
-          <input type="submit" name="submit" value="Submit" />
-        </div>
+
+        <input
+          className="p-4 px-16 shadow-lg bg-yellow-400 text-white text-2xl rounded-lg cursor-pointer"
+          type="submit"
+          name="submit"
+          value="Submit"
+        />
       </form>
+    </div>
+  ) : (
+    <div className="text-3xl font-bold font-serif p-8 max-w-3xl mx-auto items-center text-center my-28 ">
+      Successfully submitted
     </div>
   )
 }
