@@ -8,7 +8,11 @@ export default function Header() {
       {/* LEFT */}
       <div className="flex-1 font-extralight text-2xl">
         {/* <Image src="/Images/mehndi-logo.png" layout="fill" /> */}
-        <a href="/"><p className="font-bold font-serif px-2 cursor-pointer">Sisters Mehndi</p></a>
+        <a href="/">
+          <p className="font-bold font-serif px-2 cursor-pointer">
+            Sisters Mehndi
+          </p>
+        </a>
       </div>
       {/* RIGHT */}
       <div className="lg:inline-flex space-x-8 mr-4 hidden">
@@ -27,6 +31,22 @@ export default function Header() {
         <Link href="/contact">
           <p className="cursor-pointer hover:text-lg">Contact</p>
         </Link>
+      </div>
+      <div className="lg:hidden">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          className="h-6 w-6"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          strokeWidth={2}
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            d="M4 6h16M4 12h16M4 18h16"
+          />
+        </svg>
       </div>
     </div>
   )

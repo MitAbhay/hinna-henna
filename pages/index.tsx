@@ -13,18 +13,18 @@ const Home: NextPage = () => {
       </Head>
       <div className="lg:flex items-center shadow-lg mt-8 text-center">
         <div className="flex-1 p-16">
-          <h1 className="text-8xl">Welcome to</h1>
-          <h1 className=" text-amber-500 text-8xl font-bold ">
+          <h1 className="lg:text-8xl text-5xl">Welcome to</h1>
+          <h1 className=" text-amber-500 lg:text-8xl font-bold text-5xl">
             Sisters Mehndi
           </h1>
           <p className="font-serif italic mt-2 ml-2">
             A place where you can satisfy your hands and heart with mehndi.
           </p>
         </div>
-        <div className="lg:mr-40 my-4 rounded-sm shadow-md text-center mx-auto">
+        <div className="lg:mr-40 my-4 rounded-sm shadow-md text-center mx-auto items-center flex justify-center">
           {/* <img src="/Images/mehndi-logo.png" width={500} height={500} /> */}
           <Carousel
-            width={400}
+            width={350}
             autoPlay={true}
             infiniteLoop={true}
             showThumbs={false}
@@ -47,31 +47,32 @@ const Home: NextPage = () => {
       </div>
       <div className="max-w-2xl mx-auto my-8 text-xl text-center">
         <p className="font-serif">
-          This is platform of sisters, can do Mehndi/Henna for just about any occasion.
-          We Specialize in Bridal Mehndi, Sangeet Parties, Engagements, Baby
-          Showers, Birthday Parties, Ladies Night outs, School Events, Corporate
-          Events and Fundraisers. We love to extend this art form onto cakes and
-          other mediums like wood, glass and candles.
+          This is platform of sisters, can do Mehndi/Henna for just about any
+          occasion. We Specialize in Bridal Mehndi, Sangeet Parties,
+          Engagements, Baby Showers, Birthday Parties, Ladies Night outs, School
+          Events, Corporate Events and Fundraisers. We love to extend this art
+          form onto cakes and other mediums like wood, glass and candles.
         </p>
       </div>
       <div className="">
         <Link href="./form">
-        <div className="bg-amber-800 text-white p-2 rounded-lg shadow-md my-8 cursor-pointer mx-auto max-w-md text-center text-2xl">
-          Book Your Time Now
-        </div></Link>
+          <div className="bg-amber-800 text-white p-2 rounded-lg shadow-md my-8 cursor-pointer mx-auto max-w-sm text-center text-2xl">
+            Book Your Time Now
+          </div>
+        </Link>
       </div>
-      <div className="grid grid-cols-4 max-w-7xl mx-auto my-16 gap-14 border shadow-lg p-8 text-center items-center">
+      <div className="grid lg:grid-cols-4 grid-cols-2 max-w-7xl mx-auto my-16 gap-14 border shadow-lg p-8 text-center items-center">
         <div>
-          <img className="h-80" src="/Images/1.jpg" />
+          <img className="lg:h-80 h-40" src="/Images/1.jpg" />
         </div>
         <div>
-          <img className="h-80" src="/Images/4.jpg" />
+          <img className="lg:h-80 h-40" src="/Images/4.jpg" />
         </div>{' '}
         <div>
-          <img className="h-80" src="/Images/1.jpg" />
+          <img className="lg:h-80 h-40" src="/Images/1.jpg" />
         </div>
         <div>
-          <img className="h-80" src="/Images/4.jpg" />
+          <img className="lg:h-80 h-40" src="/Images/4.jpg" />
         </div>
       </div>
     </div>
