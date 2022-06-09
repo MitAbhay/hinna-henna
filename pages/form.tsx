@@ -10,11 +10,6 @@ type Inputs = {
   email: string
 }
 
-var templateParams = {
-  name: 'James',
-  notes: 'Check this out!',
-}
-
 function form() {
   const [submitted, setsubmitted] = useState(false)
   const {
@@ -27,9 +22,15 @@ function form() {
   const onSubmit: SubmitHandler<Inputs> = (data) => {
     console.log(data)
     send(
-      'service-mehndi',
-      'template-Ic9aaox',
-      templateParams,
+      'service_mehndi',
+      'template_sisters',
+      {
+        name: data.name,
+        email: data.email,
+        date: data.date,
+        time: data.time,
+        event: data.event,
+      },
       '1dkKce18eHpwrAQMV'
     )
     setsubmitted(true)

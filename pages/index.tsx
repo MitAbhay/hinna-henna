@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 import { Carousel } from 'react-responsive-carousel'
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
 
@@ -54,9 +55,10 @@ const Home: NextPage = () => {
         </p>
       </div>
       <div className="">
+        <Link href="./form">
         <div className="bg-amber-800 text-white p-2 rounded-lg shadow-md my-8 cursor-pointer mx-auto max-w-md text-center text-2xl">
           Book Your Time Now
-        </div>
+        </div></Link>
       </div>
       <div className="grid grid-cols-4 max-w-7xl mx-auto my-16 gap-14 border shadow-lg p-8 text-center items-center">
         <div>
