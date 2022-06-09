@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { useForm, SubmitHandler } from 'react-hook-form'
+import { send } from 'emailjs-com'
 
 type Inputs = {
   name: string
@@ -7,6 +8,11 @@ type Inputs = {
   time: string
   event: string
   email: string
+}
+
+var templateParams = {
+  name: 'James',
+  notes: 'Check this out!',
 }
 
 function form() {
@@ -17,8 +23,15 @@ function form() {
     watch,
     formState: { errors },
   } = useForm<Inputs>()
+
   const onSubmit: SubmitHandler<Inputs> = (data) => {
     console.log(data)
+    send(
+      'service-mehndi',
+      'template-Ic9aaox',
+      templateParams,
+      '1dkKce18eHpwrAQMV'
+    )
     setsubmitted(true)
   }
 
@@ -26,6 +39,7 @@ function form() {
     <div>
       <form
         onSubmit={handleSubmit(onSubmit)}
+        id="form"
         className="space-y-4 max-w-5xl items-center text-center mx-auto my-32"
       >
         <div className="flex space-x-8 p-4 shadow-md text-lg font-serif">
