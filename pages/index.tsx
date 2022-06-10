@@ -9,7 +9,27 @@ const Home: NextPage = () => {
   return (
     <div className="">
       <Head>
-        <title>Home | Sisters Mehndi</title>
+        <title>Sisters-Mehndi</title>
+        <meta
+          name="description"
+          content="book your mehndi time for any ocassion related to Bridal Mehndi, Sangeet Parties,
+          Engagements, Baby Showers, Birthday Parties, Ladies Night outs, School
+          Events, Corporate Events and Fundraisers"
+        />
+        <meta property="og:title" content="Sisters-Mehndi" />
+        <meta
+          property="og:description"
+          content=" This is platform of sisters, can do Mehndi/Henna for just about any
+          occasion. We Specialize in Bridal Mehndi, Sangeet Parties,
+          Engagements, Baby Showers, Birthday Parties, Ladies Night outs, School
+          Events, Corporate Events and Fundraisers. We love to extend this art
+          form onto cakes and other mediums like wood, glass and candles."
+        />
+        <meta
+          property="og:url"
+          content="http://sisters-mehndi.vercel.app.com/"
+        />
+        <meta property="og:type" content="website" />
       </Head>
       <div className="lg:flex items-center shadow-lg mt-8 text-center">
         <div className="flex-1 p-16">
