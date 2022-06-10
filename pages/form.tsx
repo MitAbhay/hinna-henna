@@ -8,6 +8,7 @@ type Inputs = {
   time: string
   event: string
   email: string
+  phone: string
 }
 
 function form() {
@@ -30,6 +31,7 @@ function form() {
         date: data.date,
         time: data.time,
         event: data.event,
+        phone: data.phone,
       },
       '1dkKce18eHpwrAQMV'
     )
@@ -81,6 +83,16 @@ function form() {
             type="time"
             name="time"
             placeholder="Select Time"
+          />
+        </div>
+        <div className="flex space-x-8 p-4 shadow-md text-lg font-serif">
+          <p className="font-bold px-2">Contact</p>
+          <input
+            {...register('phone', { required: true })}
+            className="outline-none w-full"
+            type="phone"
+            name="phone"
+            placeholder="Enter your contact number"
           />
         </div>
         <div className="flex space-x-8 p-4 shadow-md text-lg font-serif">
