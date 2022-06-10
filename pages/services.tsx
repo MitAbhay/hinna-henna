@@ -3,7 +3,7 @@ import React from 'react'
 export default function services() {
   return (
     <div>
-      <div className="grid grid-cols-3 max-w-7xl mx-auto my-16 gap-14 border shadow-lg p-8">
+      <div className="lg:grid lg:grid-cols-3 max-w-7xl mx-auto my-16 lg:gap-14 border shadow-lg p-8 space-y-8 lg:space-y-0">
         <div>
           <p className="text-lg font-serif font-bold">Bridal Mehndi</p>
           <p>
