@@ -12,7 +12,7 @@ export default function Header() {
           {/* <Image src="/Images/mehndi-logo.png" layout="fill" /> */}
           <a href="/">
             <p className="font-bold font-serif px-2 cursor-pointer">
-              Sisters Mehndi
+              Hinna Henna
             </p>
           </a>
         </div>

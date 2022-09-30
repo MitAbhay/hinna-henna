@@ -1,3 +1,3 @@
-Sisters - Mehndi
+Hinna Henna
 
-- Mehndi for all the sisters by the sisters
+- Mehndi art for everyone

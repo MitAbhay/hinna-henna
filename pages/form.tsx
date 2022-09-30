@@ -21,7 +21,7 @@ function form() {
   } = useForm<Inputs>()
 
   const onSubmit: SubmitHandler<Inputs> = (data) => {
-    console.log(data)
+    // console.log(data)
     send(
       'service_mehndi',
       'template_sisters',
@@ -33,7 +33,7 @@ function form() {
         event: data.event,
         phone: data.phone,
       },
-      '1dkKce18eHpwrAQMV'
+      process.env.NEXT_PUBLIC_API_KEY
     )
     setsubmitted(true)
   }

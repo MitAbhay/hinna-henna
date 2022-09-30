@@ -8,17 +8,17 @@ const Home: NextPage = () => {
   return (
     <div className="">
       <Head>
-        <title>Sisters-Mehndi</title>
+        <title>hinna-henna</title>
         <meta
           name="description"
           content="book your mehndi time for any ocassion related to Bridal Mehndi, Sangeet Parties,
           Engagements, Baby Showers, Birthday Parties, Ladies Night outs, School
           Events, Corporate Events and Fundraisers"
         />
-        <meta property="og:title" content="Sisters-Mehndi" />
+        <meta property="og:title" content="hinna-henna" />
         <meta
           property="og:description"
-          content=" This is platform of sisters, can do Mehndi/Henna for just about any
+          content=" This is platform for mehndi (henna), can do Mehndi/Henna for just about any
           occasion. We Specialize in Bridal Mehndi, Sangeet Parties,
           Engagements, Baby Showers, Birthday Parties, Ladies Night outs, School
           Events, Corporate Events and Fundraisers. We love to extend this art
@@ -26,7 +26,7 @@ const Home: NextPage = () => {
         />
         <meta
           property="og:url"
-          content="http://sisters-mehndi.vercel.app.com/"
+          content="http://hinna-henna.vercel.app.com/"
         />
         <meta property="og:type" content="website" />
       </Head>
@@ -34,10 +34,10 @@ const Home: NextPage = () => {
         <div className="flex-1 p-16">
           <h1 className="lg:text-8xl text-5xl">Welcome to</h1>
           <h1 className=" text-amber-500 lg:text-8xl font-bold text-5xl">
-            Sisters Mehndi
+            Hinna Henna
           </h1>
           <p className="font-serif italic mt-2 ml-2">
-            A place where you can satisfy your hands and heart with mehndi.
+            A place where you can satisfy your hands and heart with hinna/mehndi.
           </p>
         </div>
         <div className="lg:mr-40 my-4 rounded-sm shadow-md text-center mx-auto items-center flex justify-center">
@@ -66,7 +66,7 @@ const Home: NextPage = () => {
       </div>
       <div className="max-w-2xl mx-auto my-8 text-xl text-center">
         <p className="font-serif">
-          This is platform of sisters, can do Mehndi/Henna for just about any
+          This is platform for mehndi, can do Mehndi/Henna for just about any
           occasion. We Specialize in Bridal Mehndi, Sangeet Parties,
           Engagements, Baby Showers, Birthday Parties, Ladies Night outs, School
           Events, Corporate Events and Fundraisers. We love to extend this art

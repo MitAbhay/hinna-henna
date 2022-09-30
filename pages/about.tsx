@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function about() {
   return (
-    <div>This is sisters mehndi</div>
+    <div>This is hinna henna about pagei</div>
   )
 }

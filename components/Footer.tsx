@@ -6,7 +6,7 @@ export default function () {
     <div className="bg-yellow-400 z-50 pt-16 px-16 pb-2">
       <div className="flex">
         <div className="flex-1 p-4">
-          <p className="text-4xl font-serif">Sisters Mehndi</p>
+          <p className="text-4xl font-serif">Hinna Henna</p>
           <p className="text-lg font-serif mt-2">Follow Us</p>
           <div className=" flex space-x-2 w-8 h-8 ">
             <img src="/Logos/facebook.png" alt="facebook" />
@@ -44,7 +44,7 @@ export default function () {
       </div>
       <div className="mt-2">
         <hr />
-        <p className="text-center">copyrignt © 2022 || Sisters Mehndi </p>
+        <p className="text-center">copyrignt © 2022 || Hinna Henna </p>
       </div>
     </div>
   )
