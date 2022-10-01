@@ -8,9 +8,9 @@
   "dependencies": {
     "@heroicons/react": "^1.0.6",
     "emailjs-com": "^3.2.0",
-    "next": "latest",
-    "react": "18.1.0",
-    "react-dom": "18.1.0",
+    "next": "^12.3.1",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
     "react-grid-gallery": "^0.5.5",
     "react-hook-form": "^7.31.3",
     "react-photo-gallery": "^8.0.0",
