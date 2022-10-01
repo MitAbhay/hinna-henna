@@ -1,6 +1,6 @@
 # Hinna Henna 
 
-<img width ="600" src="https://webneel.com/daily/sites/default/files/images/daily/11-2015/1-bridal-mehndi-designs-simple.jpg">
+<!-- <img width ="600" src="https://webneel.com/daily/sites/default/files/images/daily/11-2015/1-bridal-mehndi-designs-simple.jpg">s -->
 <div  align="center"> 🌹 BEST MEHNDI FOR YOUR NEXT EVENT 🌹 </div>
 
 <br>
@@ -22,8 +22,8 @@
 
 <br><br>
 
-- Contributing Guidelines
-- About Hacktoberfest
+-   <a href= "https://github.com/MitAbhay/hinna-henna/blob/main/Contributing.md">Contributing Guidelines</a>
+-   <a href= "https://github.com/MitAbhay/hinna-henna/blob/main/Hacktoberfest.md">About Hacktoberfest</a>
 <br><br>
 
 ## REPO STATUS
