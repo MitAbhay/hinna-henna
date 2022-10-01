@@ -19,19 +19,19 @@ export default function Header() {
         {/* RIGHT */}
         <div className="lg:inline-flex space-x-8 mr-4 hidden">
           <Link href="/">
-            <p className="cursor-pointer hover:text-lg">Home</p>
+            <p className="cursor-pointer hover:before:content-[''] before:w-full hover:before:scale-100 hover:before:transition-all before:duration-700 before:delay-100 before:h-1 before:rounded-full before:bg-yellow-400 before:absolute relative before:-bottom-2 before:scale-0">Home</p>
           </Link>
           <Link href="/services">
-            <p className="cursor-pointer hover:text-lg">Services</p>
+            <p className="cursor-pointer hover:before:content-[''] before:w-full hover:before:scale-100 hover:before:transition-all before:duration-700 before:delay-100 before:h-1 before:rounded-full before:bg-yellow-400 before:absolute relative before:-bottom-2 before:scale-0">Services</p>
           </Link>
           <Link href="/gallery">
-            <p className="cursor-pointer hover:text-lg">Gallery</p>
+            <p className="cursor-pointer hover:before:content-[''] before:w-full hover:before:scale-100 hover:before:transition-all before:duration-700 before:delay-100 before:h-1 before:rounded-full before:bg-yellow-400 before:absolute relative before:-bottom-2 before:scale-0">Gallery</p>
           </Link>
           <Link href="/about">
-            <p className="cursor-pointer hover:text-lg">About</p>
+            <p className="cursor-pointer hover:before:content-[''] before:w-full hover:before:scale-100 hover:before:transition-all before:duration-700 before:delay-100 before:h-1 before:rounded-full before:bg-yellow-400 before:absolute relative before:-bottom-2 before:scale-0">About</p>
           </Link>
           <Link href="/contact">
-            <p className="cursor-pointer hover:text-lg">Contact</p>
+            <p className="cursor-pointer hover:before:content-[''] before:w-full hover:before:scale-100 hover:before:transition-all before:duration-700 before:delay-100 before:h-1 before:rounded-full before:bg-yellow-400 before:absolute relative before:-bottom-2 before:scale-0">Contact</p>
           </Link>
         </div>
         <div
