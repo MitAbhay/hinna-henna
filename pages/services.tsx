@@ -4,7 +4,7 @@ export default function services() {
   return (
     <div>
       <div className="lg:grid lg:grid-cols-3 max-w-7xl mx-auto my-16 lg:gap-14 border shadow-lg p-8 space-y-8 lg:space-y-0">
-        <div>
+        <div className='shadow-lg p-3 bg-amber-100 rounded-md hover:scale-105 transition-all duration-500'>
           <p className="text-lg font-serif font-bold">Bridal Mehndi</p>
           <p>
             A whole range of bridal design options available, from simple to
@@ -13,7 +13,7 @@ export default function services() {
             legs.
           </p>
         </div>
-        <div>
+        <div className='shadow-lg p-3 bg-amber-100 rounded-md hover:scale-105 transition-all duration-500'>
           <p className="text-lg font-serif font-bold">Sangeet Parties</p>
           <p>
             Whether it is mehndi or sangeet night, kick off the wedding
@@ -21,28 +21,28 @@ export default function services() {
             and not on a per hand rate.
           </p>
         </div>
-        <div>
+        <div className='shadow-lg p-3 bg-amber-100 rounded-md hover:scale-105 transition-all duration-500'>
           <p className="text-lg font-serif font-bold">Engagements</p>
           <p>
             Adorn your beautiful hands for the first wedding festivity with some
             mehndi.
           </p>
         </div>
-        <div>
+        <div className='shadow-lg p-3 bg-amber-100 rounded-md hover:scale-105 transition-all duration-500'>
           <p className="text-lg font-serif font-bold">Baby/Bridal Showers</p>
           <p>
             Whether it’s belly mehndi or mehndi for your guests at your shower,
             it’s sure to be a hit.
           </p>
         </div>
-        <div>
+        <div className='shadow-lg p-3 bg-amber-100 rounded-md hover:scale-105 transition-all duration-500'>
           <p className="text-lg font-serif font-bold">Birthday Parties</p>
           <p>
             Who says mehndi is just for weddings, bring the joy of color to any
             event.
           </p>
         </div>
-        <div>
+        <div className='shadow-lg p-3 bg-amber-100 rounded-md hover:scale-105 transition-all duration-500'>
           <p className="text-lg font-serif font-bold">
             School/Corporate Events
           </p>
@@ -50,21 +50,21 @@ export default function services() {
             Mehndi is always a super hit at all school and corporate functions.
           </p>
         </div>
-        <div>
+        <div className='shadow-lg p-3 bg-amber-100 rounded-md hover:scale-105 transition-all duration-500'>
           <p className="text-lg font-serif font-bold">Bar/Bat Mitzvah</p>
           <p>
             Mehndi is fun for all kids and adults a like, ring in the teen hood
             with a hit Bar/Bat Mitzvah.
           </p>
         </div>
-        <div>
+        <div className='shadow-lg p-3 bg-amber-100 rounded-md hover:scale-105 transition-all duration-500'>
           <p className="text-lg font-serif font-bold">Grad Night</p>
           <p>
             The new graduates really enjoy this and the henna artist is busy at
             this event all night.
           </p>
         </div>
-        <div>
+        <div className='shadow-lg p-3 bg-amber-100 rounded-md hover:scale-105 transition-all duration-500'>
           <p className="text-lg font-serif font-bold">Girls Night Out</p>
           <p>
             A fun way to bond with your girlfriends. Go with a non-traditional
