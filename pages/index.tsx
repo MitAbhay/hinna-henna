@@ -33,7 +33,7 @@ const Home: NextPage = () => {
       <div className="lg:flex items-center shadow-lg mt-8 text-center">
         <div className="flex-1 p-16">
           <h1 className="lg:text-8xl text-5xl">Welcome to</h1>
-          <h1 className=" text-amber-500 lg:text-8xl font-bold text-5xl">
+          <h1 className=" text-secondary lg:text-8xl font-bold text-5xl">
             Hinna Henna
           </h1>
           <p className="font-serif italic mt-2 ml-2">
@@ -75,7 +75,7 @@ const Home: NextPage = () => {
       </div>
       <div className="">
         <Link href="./form">
-          <div className="bg-amber-800 text-white p-2 rounded-lg shadow-md my-8 cursor-pointer mx-auto max-w-sm text-center text-2xl">
+          <div className="bg-secondary text-white p-2 rounded-lg shadow-md my-8 cursor-pointer mx-auto max-w-sm text-center text-2xl">
             Book Your Time Now
           </div>
         </Link>
