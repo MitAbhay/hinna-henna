@@ -1,60 +1,43 @@
 # Hinna Henna 
 
+<img width ="600" src="https://webneel.com/daily/sites/default/files/images/daily/11-2015/1-bridal-mehndi-designs-simple.jpg">
+<div  align="center"> 🌹 BEST MEHNDI FOR YOUR NEXT EVENT 🌹 </div>
+
+<br>
+
 ## About
-<p> This is platform for mehndi, can do Mehndi/Henna for just about any occasion. We Specialize in Bridal Mehndi, Sangeet Parties, Engagements, Baby Showers, Birthday Parties, Ladies Night outs, School Events, Corporate Events and Fundraisers. We love to extend this art form onto cakes and other mediums like wood, glass and candles.</p>
+<p> Finding for best Mehndi artists? your search is over. We provide Mehndi services across various functions and different diversity. We aim at making your life colorful. 🧡🧡🧡🧡 </p>
+<br>
 
-## Contribution (Hacktoberfest2022)
+## Visions 
+ We love to extend this art form onto cakes and other mediums like wood, glass and candles.
 
-### Welcome to hacktoberfest 2022 Public Repository. 👨🏻‍💻
+<br>
 
-<p>A month-long celebration from October 1st - 31st sponsored by Digital Ocean and GitHub to get people involved in Open Source. Create your very first pull request to any public repository on GitHub and contribute to the open source developer community.
+<div align="center"> 
+     <a href= "https://hinna-henna.vercel.app/">
+       <h1> VISIT US HERE 😊 </h1> </a>
 
-HACKTOBERFEST IS DIGITALOCEAN’S ANNUAL EVENT THAT ENCOURAGES PEOPLE TO CONTRIBUTE TO OPEN SOURCE THROUGHOUT OCTOBER. MUCH OF MODERN TECH INFRASTRUCTURE—INCLUDING SOME OF DIGITALOCEAN’S OWN PRODUCTS—RELIES ON OPEN-SOURCE PROJECTS BUILT AND MAINTAINED BY PASSIONATE PEOPLE WHO OFTEN DON’T HAVE THE STAFF OR BUDGETS TO DO MUCH MORE THAN KEEP THE PROJECT ALIVE. HACKTOBERFEST IS ALL ABOUT GIVING BACK TO THOSE PROJECTS, SHARPENING SKILLS, AND CELEBRATING ALL THINGS OPEN SOURCE, ESPECIALLY THE PEOPLE THAT MAKE OPEN SOURCE SO SPECIAL.
+  </div>
 
-https://hacktoberfest.digitalocean.com/</p>
+<br><br>
 
------
+- Contributing Guidelines
+- About Hacktoberfest
+<br><br>
 
-### What can You contribute ⚠️ 
-* You can go through the issues tab in the repo and check out the issue you are able to solve.
-* Or you can create your own issue suggesting any changes.
------
+## REPO STATUS
+![GitHub PR Open](https://img.shields.io/github/issues-pr/MitAbhay/hinna-henna?style=for-the-badge&color=aqua)
+![GitHub PR closed](https://img.shields.io/github/issues-pr-closed-raw/MitAbhay/hinna-henna?style=for-the-badge&color=blue)
+![GitHub language count](https://img.shields.io/github/languages/count/MitAbhay/hinna-henna?style=for-the-badge&color=brightgreen)
+<br><br>
+## Our Contributors
+<a href="https://github.com/MitAbhay/hinna-henna/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=MitAbhay/hinna-henna" />
+</a>
 
-### Process are as follows :- 
-* Login using github @ [Hacktoberfest](https://hacktoberfest.digitalocean.com/)
-* Create four valid pull requests (PRs) between 1st - 31st October
+<br>
+<div align="center">
+Show some ❤️ by starring this awesome repository!
+</div>
 
-------
-### How to Contribute to this repository
-
-* Fork the repository (Click the Fork button in the top right of this page, click your Profile Image)
-* Clone the forked repository to your local machine.
-```markdown
-git clone https://github.com/your-username/hinna-henna.git
-```
-* change the present working directory
-```markdown
-cd hinna-henna
-```
-* Add/Create your project to the specific folder as described in what you can contribute section.
-* Make a new branch
-```markdown
-git checkout -b branch-name
-```
-* Make change in the repository with the new branch.
-* push the changes.
-```markdown
-git add .
-git commit -m "Your commit Message"
-git push origin branch-name
-```
-* Make a pull request.
-* Star the repository.
-
-### NOTE
-
-* Make Sure you commit your changes in a new branch.
-* Make Sure you Give proper name to your files describing the addition.
-* Also Make Sure you comment your code whereever necessary.
-   
-<!--       END OF README           END OF README         END OF README         END OF README          END OF README           END OF README           END OF README      -->
