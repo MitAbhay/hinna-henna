@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function contact() {
   return (
-    <div className='flex flex-col lg:flex-row justify-around items-center transition-all h-screen'>
+    <div className='flex flex-col lg:flex-row justify-around items-center transition-all my-32'>
       <div className="drop-shadow-lg  mt-10 lg:mt-5 transition-all" >
         <img src="https://images.unsplash.com/photo-1534250227836-8257f90b95b1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" className='w-96 lg:w-[720px] rounded-md' />
       </div >
