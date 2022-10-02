@@ -17,7 +17,7 @@
 
 .footerContent {
   display: grid;
-  grid-template-columns: 30% 30% 33%;
+  grid-template-columns: 30% 33% 33%;
   padding: 0.5rem 2rem;
   align-items: center;
   justify-content: center;
@@ -50,9 +50,6 @@
   width: fit-content;
 }
 
-.about p:nth-of-type(2) {
-  font-size: 14px;
-}
 
 @media (max-width: 599px) {
   .footerContainer {
@@ -67,7 +64,7 @@
     margin: 2rem 0;
     align-items: center;
     justify-content: center;
-    text-align: center;
+    text-align: center1;
   }
 
   .logo {
@@ -88,10 +85,18 @@
     font-size: 12px;
     justify-content: center;
   }
+
+  .about p {
+    text-align: center;
+  }
 }
 
-@media (min-width: 600px) and (max-width: 900px) {
+@media (min-width: 600px) and (max-width: 1200px) {
   .footerContainer {
     height: 350px;
+  }
+
+  .about p:nth-of-type(2) {
+    font-size: 14px;
   }
 }
