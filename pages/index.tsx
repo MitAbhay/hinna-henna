@@ -75,7 +75,7 @@ const Home: NextPage = () => {
       </div>
       <div className="">
         <Link href="./form">
-          <div className="bg-amber-800 text-white p-2 rounded-lg shadow-md my-8 cursor-pointer mx-auto max-w-sm text-center text-2xl">
+          <div className="bg-amber-800 hover:bg-amber-900 text-white p-2 rounded-lg shadow-md my-8 cursor-pointer mx-auto max-w-sm text-center text-2xl">
             Book Your Time Now
           </div>
         </Link>

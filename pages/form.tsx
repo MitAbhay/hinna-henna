@@ -116,7 +116,7 @@ function form() {
         </div>
 
         <input
-          className="p-4 px-16 shadow-lg bg-yellow-400 text-white text-2xl rounded-lg cursor-pointer"
+          className="p-4 px-16 shadow-lg bg-yellow-400 hover:bg-yellow-500 text-white text-2xl rounded-lg cursor-pointer"
           type="submit"
           name="submit"
           value="Submit"
