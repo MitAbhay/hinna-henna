@@ -10,28 +10,28 @@ export default function Header() {
         {/* LEFT */}
         <div className="flex-1 font-extralight text-2xl">
           {/* <Image src="/Images/mehndi-logo.png" layout="fill" /> */}
-          <a href="/">
-            <p className="font-bold font-serif px-2 cursor-pointer">
+            <p className="font-bold font-serif px-2 w-max cursor-pointer">
+              <a href="/">
               Hinna Henna
+              </a>
             </p>
-          </a>
         </div>
         {/* RIGHT */}
         <div className="lg:inline-flex space-x-8 mr-4 hidden">
-          <Link href="/">
-            <p className="cursor-pointer hover:text-lg">Home</p>
+        <Link href="/">
+            <p className="cursor-pointer hover:before:content-[''] before:w-full hover:before:scale-100 hover:before:transition-all before:duration-700 before:delay-100 before:h-0.5 before:rounded-full before:bg-black font-medium before:absolute relative before:-bottom-1 before:scale-0">Home</p>
           </Link>
           <Link href="/services">
-            <p className="cursor-pointer hover:text-lg">Services</p>
+            <p className="cursor-pointer hover:before:content-[''] before:w-full hover:before:scale-100 hover:before:transition-all before:duration-700 before:delay-100 before:h-0.5 before:rounded-full before:bg-black font-medium before:absolute relative before:-bottom-1 before:scale-0">Services</p>
           </Link>
           <Link href="/gallery">
-            <p className="cursor-pointer hover:text-lg">Gallery</p>
+            <p className="cursor-pointer hover:before:content-[''] before:w-full hover:before:scale-100 hover:before:transition-all before:duration-700 before:delay-100 before:h-0.5 before:rounded-full before:bg-black font-medium before:absolute relative before:-bottom-1 before:scale-0">Gallery</p>
           </Link>
           <Link href="/about">
-            <p className="cursor-pointer hover:text-lg">About</p>
+            <p className="cursor-pointer hover:before:content-[''] before:w-full hover:before:scale-100 hover:before:transition-all before:duration-700 before:delay-100 before:h-0.5 before:rounded-full before:bg-black font-medium before:absolute relative before:-bottom-1 before:scale-0">About</p>
           </Link>
           <Link href="/contact">
-            <p className="cursor-pointer hover:text-lg">Contact</p>
+            <p className="cursor-pointer hover:before:content-[''] before:w-full hover:before:scale-100 hover:before:transition-all before:duration-700 before:delay-100 before:h-0.5 before:rounded-full before:bg-black font-medium before:absolute relative before:-bottom-1 before:scale-0">Contact</p>
           </Link>
         </div>
         <div
