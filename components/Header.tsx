@@ -6,7 +6,7 @@ export default function Header() {
   const [shownav, setshownav] = useState(false)
   return (
     <div>
-      <div className="sticky top-0 flex p-2 px-2 bg-amber-500 shadow-lg rounded-sm items-center z-50">
+      <div className="sticky top-0 flex p-2 px-2 bg-primary text-white shadow-lg rounded-sm items-center z-50">
         {/* LEFT */}
         <div className="flex-1 font-extralight text-2xl">
           {/* <Image src="/Images/mehndi-logo.png" layout="fill" /> */}
@@ -57,7 +57,7 @@ export default function Header() {
         </div>
       </div>
       {shownav && (
-        <div className="mr-4 lg:hidden text-center bg-amber-500 text-black font-serif text-lg w-full">
+        <div className="mr-4 lg:hidden text-center bg-primary text-white font-serif text-lg w-full">
           <Link href="/">
             <p className="cursor-pointer hover:text-lg">Home</p>
           </Link>

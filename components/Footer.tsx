@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function () {
   return (
-    <div className="bg-yellow-400 z-50 pt-16 px-16 pb-2">
+    <div className="bg-primary text-white z-50 pt-16 px-16 pb-2">
       <div className="flex">
         <div className="flex-1 p-4">
           <p className="text-4xl font-serif">Hinna Henna</p>
