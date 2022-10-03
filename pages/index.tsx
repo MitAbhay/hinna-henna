@@ -56,19 +56,11 @@ const Home: NextPage = () => {
           </div>
         </Link>
       </div>
-      <div className="grid lg:grid-cols-4 grid-cols-2 max-w-7xl mx-auto my-16 gap-14 border shadow-lg p-8 text-center items-center">
-        <div>
-          <img className="lg:h-80 h-40" src="/Images/1.jpg" />
-        </div>
-        <div>
-          <img className="lg:h-80 h-40" src="/Images/4.jpg" />
-        </div>{' '}
-        <div>
-          <img className="lg:h-80 h-40" src="/Images/1.jpg" />
-        </div>
-        <div>
-          <img className="lg:h-80 h-40" src="/Images/4.jpg" />
-        </div>
+      <div className="grid lg:grid-cols-4 grid-cols-2 max-w-7xl mx-auto my-16 gap-14 border shadow-lg p-8 items-center justify-center">
+          <img className="lg:h-80 h-40 mx-auto" src="/Images/1.jpg" />
+          <img className="lg:h-80 h-40 mx-auto" src="/Images/4.jpg" />
+          <img className="lg:h-80 h-40 mx-auto" src="/Images/1.jpg" />
+          <img className="lg:h-80 h-40 mx-auto" src="/Images/4.jpg" />
       </div>
     </div>
   )
