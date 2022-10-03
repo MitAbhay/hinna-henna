@@ -89,6 +89,10 @@
     align-items: center;
     padding: 1rem;
   }
+
+  .link {
+    width: 60% !important;
+  }
 }
 
 @media (max-width: 768px) {
@@ -98,5 +102,9 @@
 
   .container {
     display: block;
+  }
+
+  .link {
+    width: 35%;
   }
 }

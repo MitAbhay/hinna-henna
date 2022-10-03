@@ -22,7 +22,10 @@ const NavbarMob = (props) => {
   return (
     <div className={Styles.container}>
       <div className={Styles.hamburger}>
-        <MdMenu style={{color:"black"}} onClick={openDrawerHandler} />
+        <MdMenu
+          style={{ color: 'black', height: '18px', width: '18px' }}
+          onClick={openDrawerHandler}
+        />
       </div>
       <div
         onClick={closeDrawerHandler}
@@ -34,7 +37,15 @@ const NavbarMob = (props) => {
               Hinna Henna
             </Link>
           </div>
-          <MdOutlineClose style={{color:"black"}} onClick={closeDrawerHandler} />
+          <MdOutlineClose
+            style={{
+              color: 'black',
+              height: '18px',
+              width: '18px',
+              cursor: 'pointer',
+            }}
+            onClick={closeDrawerHandler}
+          />
         </div>
 
         {/* Icons */}

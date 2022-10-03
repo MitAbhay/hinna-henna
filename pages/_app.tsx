@@ -2,7 +2,6 @@ import '../styles/globals.css'
 import Head from 'next/head'
 import '../styles/custom-styles.css'
 import type { AppProps } from 'next/app'
-import Header from '../components/Header'
 import Footer from '../components/Footer/Footer'
 import Navbar from '../components/Navbar/Navbar';
 

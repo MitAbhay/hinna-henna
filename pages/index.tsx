@@ -5,7 +5,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css'
 
 const Home: NextPage = () => {
   return (
-    <div className="">
+    <div className="contentContainer">
       <div className="lg:flex items-center shadow-lg mt-8 text-center">
         <div className="flex-1 p-16">
           <h1 className="lg:text-8xl text-5xl">Welcome to</h1>
