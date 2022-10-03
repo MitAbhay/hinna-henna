@@ -14,13 +14,15 @@
   height: 100%;
   display: flex;
   align-items: center;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
 }
 
 .link:hover,
 .link:active,
 .active {
-  color: #75c9b7;
-  border-bottom: 4px solid #75c9b7;
+  color: black;
+  border-bottom: 4px solid black;
 }
 
 @media (max-width: 768px) {
