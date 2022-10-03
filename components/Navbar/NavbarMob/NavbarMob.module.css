@@ -1,0 +1,102 @@
+.container {
+  display: none;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.NavModal {
+  display: none;
+  z-index: 110;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  background-color: #f59e0b;
+  left: 0;
+  top: 0;
+  transition: all 0.5s ease-out;
+  padding: 1.5rem 3rem;
+  display: grid;
+  grid-template-rows: 10% 10% 80%;
+}
+
+.open {
+  transform: translateX(0);
+}
+
+.close {
+  transform: translateX(100%);
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  color: black;
+}
+
+.logoSec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+  height: 100%;
+  align-items: center;
+  padding: 1rem 1rem;
+  margin-top: 6rem;
+}
+
+.linksVert {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 80%;
+  align-items: center;
+  padding: 1rem;
+}
+
+.link {
+  margin: 16px 12px;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+  text-decoration: none;
+  color: white;
+  height: 100%;
+  justify-self: center;
+  text-align: center;
+  width: 60%;
+  align-items: center;
+}
+
+.link:hover,
+.link:active,
+.active {
+  color: black;
+  border-bottom: 4px solid black;
+}
+
+@media (max-width: 500px) {
+  .linksVert {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .container {
+    display: block;
+  }
+}
