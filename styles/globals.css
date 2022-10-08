@@ -1,3 +1,15 @@
 @tailwind base;
+@layer base{
+    img{
+        display: inline;
+        margin: 5px 5px;
+    }
+    img:hover {
+        transform: rotateY(180deg);
+        transform-style: preserve-3d;
+         padding: 5px;
+        margin: 0 auto;
+      }
+}
 @tailwind components;
 @tailwind utilities;
