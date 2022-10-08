@@ -3,7 +3,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 100px;
+  height: 48px;
   background-color: rgba(245, 158, 11, 0.8);
   color: white;
   display: flex;
@@ -15,7 +15,7 @@
 }
 
 .logo {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
   color: black;
