@@ -3,3 +3,13 @@
 .control-arrow {
   padding: 8px !important;
 }
+
+.contentContainer {
+  padding: 2rem;
+}
+
+@media (max-width: 768px) {
+  .contentContainer {
+    margin-top: 60px;
+  }
+}
