@@ -14,7 +14,7 @@
     "react-grid-gallery": "^0.5.5",
     "react-hook-form": "^7.31.3",
     "react-icons": "^4.4.0",
-    "react-photo-gallery": "^8.0.0",
+    "react-photo-album": "^1.16.1",
     "react-responsive-carousel": "^3.2.23"
   },
   "devDependencies": {

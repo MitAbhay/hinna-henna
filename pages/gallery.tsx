@@ -1,13 +1,13 @@
 import React from 'react'
-import Gallery from 'react-photo-gallery'
-// import Gallery from 'react-grid-gallery'
+import PhotoAlbum from "react-photo-album";
+
 import { photos } from '../public/Gallery-Images/Images'
 
 export default function gallery() {
 
   return (
     <div className="mt-16 mx-10 items-center text-center">
-      <Gallery direction='column' photos={photos} />,
+      <PhotoAlbum layout='columns' photos={photos} />,
     </div>
   )
 }
