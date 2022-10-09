@@ -1,5 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
+import DarkModeToggle from "react-dark-mode-toggle";
+ 
 import { useRouter } from 'next/router'
 
 import Styles from './NavbarDesk.module.css'
@@ -7,6 +9,7 @@ import { FaUserAlt, FaQuestion } from 'react-icons/fa'
 
 const navbarDesk = (props) => {
   const router = useRouter()
+  const [isDarkMode, setIsDarkMode] = useState(() => false);
 
   //  uncomment after implementing auth
   // let links = (
@@ -88,6 +91,12 @@ const navbarDesk = (props) => {
             CONTACT
           </a>
         </Link>
+        <DarkModeToggle
+      onChange={setIsDarkMode}
+      checked={isDarkMode}
+      size={40}
+         />
+
       </div>
 
       {/* uncomment after implementing auth */}
