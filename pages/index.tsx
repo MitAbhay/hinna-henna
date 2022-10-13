@@ -19,7 +19,7 @@ const Home: NextPage = () => {
         <div className="lg:mr-40 my-4 rounded-sm shadow-md text-center mx-auto items-center flex justify-center">
           {/* <img src="/Images/mehndi-logo.png" width={500} height={500} /> */}
           <Carousel
-            width={350}
+            width={360}
             autoPlay={true}
             infiniteLoop={true}
             showThumbs={false}
@@ -32,7 +32,7 @@ const Home: NextPage = () => {
               <img src="https://cdn0.weddingwire.in/articles/images/1/9/7/5/img_65791/muslim-mehndi-images-amrita-henna-leaf-shaped-mehndi-design.jpg" />
             </div>
             <div>
-              <img src="https://hdfreewallpaper.net/wp-content/uploads/2016/11/indian-mehndi-design-images-downloads-e1643600931131.jpg" />
+              <img src="https://www.southindiafashion.com/wp-content/uploads/2020/02/mehndi-designs-2020-scaled.jpg" />
             </div>
             <div>
               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRTGQO96phRV-rEw3gWABwZ2TwxZJ3FoY1URpuOa6opHyGUNxpWT3tJZ8TKEy9TTjam08&usqp=CAU" />
