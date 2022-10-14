@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+@import url('https: //cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
 .control-arrow {
   padding: 8px !important;
 }
@@ -12,4 +14,412 @@
   .contentContainer {
     margin-top: 60px;
   }
+}
+
+.containerMain {
+  display: grid;
+  place-items: center;
+  width: 100vw;
+}
+
+.about-content {
+  width: 100%;
+  max-width: 30rem;
+}
+
+.headerAbout {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.containerAbout {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  /* flex-wrap: wrap  ; */
+  flex-direction: row;
+  margin-top: 100px;
+  width: 100%;
+  max-width: 70rem;
+}
+
+.containerAbout {
+  width: 100%;
+}
+
+.container-image {
+  max-width: 25rem;
+  aspect-ratio: 1;
+  width: 100%;
+  margin-left: 25px;
+}
+
+.container-image img {
+  border-radius: .5rem;
+  padding: .25rem;
+}
+
+@media screen and (max-width: 768px) {
+  .containerAbout {
+    justify-content: flex-start;
+    align-items: center;
+    padding: .5rem;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .containerMain {
+    height: auto;
+  }
+}
+
+
+.about-section hr {
+  border: 2px solid red;
+  border-radius: 5px;
+}
+
+.about-section {
+  margin-top: 100px;
+  text-align: center;
+  color: #000;
+
+}
+
+.tm-about-box-1 {
+  background-color: rgba(245, 158, 11, 0.8);
+  width: 255px;
+  height: 380px;
+  padding: 30px;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+.tm-about-box-1-img {
+  display: block;
+  margin: 0 auto 30px;
+  border-radius: 50%;
+  border: 5px solid #d4d4d4;
+  transition: all 0.3s ease;
+}
+
+
+.tm-about-box-1-title {
+  font-size: 17px;
+  font-style: italic;
+  text-align: center
+}
+
+.tm-about-box-1-title span {
+  font-size: 14px;
+  font-style: normal;
+  text-transform: none;
+}
+
+
+
+
+
+
+
+/*!
+ * Bootstrap v3.3.5 (http://getbootstrap.com)
+ * Copyright 2011-2015 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%
+}
+
+body {
+  margin: 0
+}
+
+
+section {
+  display: block
+}
+
+a {
+  background-color: transparent
+}
+
+a:active,
+a:hover {
+  outline: 0
+}
+
+img {
+  border: 0
+}
+
+hr {
+  height: 0;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box
+}
+
+/*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
+@media print {
+
+  *,
+  :after,
+  :before {
+    color: #000 !important;
+    text-shadow: none !important;
+    background: 0 0 !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important
+  }
+
+  a,
+  a:visited {
+    text-decoration: underline
+  }
+
+  a[href]:after {
+    content: " (" attr(href) ")"
+  }
+
+  img {
+    page-break-inside: avoid
+  }
+
+  img {
+    max-width: 100% !important
+  }
+
+  h2,
+  h3,
+  p {
+    orphans: 3;
+    widows: 3
+  }
+
+  h2,
+  h3 {
+    page-break-after: avoid
+  }
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box
+}
+
+:after,
+:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box
+}
+
+html {
+  font-size: 10px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff
+}
+
+a {
+  color: #337ab7;
+  text-decoration: none
+}
+
+a:focus,
+a:hover {
+  color: #23527c;
+  text-decoration: underline
+}
+
+a:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px
+}
+
+img {
+  vertical-align: middle
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eee
+}
+
+
+.h2,
+.h3,
+h2,
+h3 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit
+}
+
+
+.h2,
+.h3,
+h2,
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px
+}
+
+.h2,
+h2 {
+  font-size: 30px
+}
+
+.h3,
+h3 {
+  font-size: 24px
+}
+
+p {
+  margin: 0 0 10px
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px
+}
+
+
+.col-lg-3,
+.col-lg-6,
+.col-md-3,
+.col-md-6,
+.col-sm-3,
+.col-sm-6,
+.col-xs-12 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px
+}
+
+
+.col-xs-12 {
+  float: left
+}
+
+.col-xs-12 {
+  width: 100%
+}
+
+@media (min-width:768px) {
+
+
+  .col-sm-3,
+  .col-sm-6 {
+    float: left
+  }
+
+  .col-sm-6 {
+    width: 50%
+  }
+
+  .col-sm-3 {
+    width: 25%
+  }
+}
+
+@media (min-width:992px) {
+
+
+  .col-md-3,
+  .col-md-6 {
+    float: left
+  }
+
+  .col-md-6 {
+    width: 50%
+  }
+
+  .col-md-3 {
+    width: 25%
+  }
+}
+
+@media (min-width:1200px) {
+
+
+  .col-lg-3,
+  .col-lg-6 {
+    float: left
+  }
+
+  .col-lg-6 {
+    width: 50%
+  }
+
+  .col-lg-3 {
+    width: 25%
+  }
+}
+
+/*Contact form Styling*/
+
+@-webkit-keyframes progress-bar-stripes {
+  from {
+    background-position: 40px 0
+  }
+
+  to {
+    background-position: 0 0
+  }
+}
+
+@-o-keyframes progress-bar-stripes {
+  from {
+    background-position: 40px 0
+  }
+
+  to {
+    background-position: 0 0
+  }
+}
+
+@keyframes progress-bar-stripes {
+  from {
+    background-position: 40px 0
+  }
+
+  to {
+    background-position: 0 0
+  }
+}
+
+
+.row:after,
+.row:before {
+  display: table;
+  content: " "
+}
+
+
+.row:after {
+  clear: both
+}
+
+@-ms-viewport {
+  width: device-width
 }
