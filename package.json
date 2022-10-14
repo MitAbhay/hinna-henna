@@ -15,7 +15,8 @@
     "react-hook-form": "^7.31.3",
     "react-icons": "^4.4.0",
     "react-photo-album": "^1.16.1",
-    "react-responsive-carousel": "^3.2.23"
+    "react-responsive-carousel": "^3.2.23",
+    "sweetalert2": "^11.5.1"
   },
   "devDependencies": {
     "@types/node": "17.0.35",
