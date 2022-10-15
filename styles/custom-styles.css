@@ -41,6 +41,8 @@
   margin-top: 100px;
   width: 100%;
   max-width: 70rem;
+  font-family: sans-serif;
+  font-style: italic;
 }
 
 .containerAbout {
@@ -77,6 +79,7 @@
 .about-section hr {
   border: 2px solid red;
   border-radius: 5px;
+  margin-top: 36px;
 }
 
 .about-section {
@@ -95,6 +98,8 @@
   margin: auto;
   margin-top: 20px;
   margin-bottom: 20px;
+  font-family: sans-serif;
+  font-style: italic;
 
 }
 
@@ -103,7 +108,6 @@
   margin: 0 auto 30px;
   border-radius: 50%;
   border: 5px solid #d4d4d4;
-  transition: all 0.3s ease;
 }
 
 
