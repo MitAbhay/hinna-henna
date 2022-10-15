@@ -2,10 +2,21 @@ import type { NextPage } from 'next'
 import Link from 'next/link'
 import { Carousel } from 'react-responsive-carousel'
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
+import Swal from 'sweetalert2'
+
 
 const Home: NextPage = () => {
+
+  Swal.fire({
+    title: 'Error!',
+    text: 'Do you want to continue',
+    icon: 'error',
+    confirmButtonText: 'Cool'
+  })
+  
   return (
     <div className="contentContainer">
+      
       <div className="lg:flex items-center shadow-lg mt-8 text-center">
         <div className="flex-1 p-16">
           <h1 className="lg:text-8xl text-5xl">Welcome to</h1>
