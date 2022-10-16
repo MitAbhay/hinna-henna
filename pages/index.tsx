@@ -8,10 +8,11 @@ import Swal from 'sweetalert2'
 const Home: NextPage = () => {
 
   Swal.fire({
-    title: 'Error!',
-    text: 'Do you want to continue',
-    icon: 'error',
-    confirmButtonText: 'Cool'
+    backdrop: true,
+    title: 'Welcome to Hinna Henna !!',
+    confirmButtonText: 'Lets Go',
+    customClass: {closeButton :'color: black'},
+    
   })
   
   return (
