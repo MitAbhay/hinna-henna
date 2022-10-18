@@ -7,14 +7,19 @@ import Swal from 'sweetalert2'
 
 const Home: NextPage = () => {
 
-  Swal.fire({
-    backdrop: true,
-    title: 'Welcome to Hinna Henna !!',
-    confirmButtonText: 'Lets Go',
-    customClass: {closeButton :'color: black'},
-    
-  })
-  
+  if (typeof window !== 'undefined') {
+    if (!localStorage.getItem("popup")) {
+      Swal.fire({
+        backdrop: true,
+        title: 'Welcome to Hinna Henna !!',
+        confirmButtonText: 'Lets Go',
+        customClass: { closeButton: 'color: black' },
+
+      })
+      localStorage.setItem("popup", 'viewed');
+    }
+  }
+
   return (
     <div className="contentContainer">
       
