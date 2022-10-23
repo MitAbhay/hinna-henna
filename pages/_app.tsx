@@ -1,13 +1,18 @@
 import '../styles/globals.css'
 import Head from 'next/head'
 import '../styles/custom-styles.css'
-import type { AppProps } from 'next/app'
+import type { AppType } from 'next/app'
+import type { Session } from 'next-auth'
+import { SessionProvider } from 'next-auth/react'
 import Footer from '../components/Footer/Footer'
-import Navbar from '../components/Navbar/Navbar';
+import Header from '../components/Header'
 
-function MyApp({ Component, pageProps }: AppProps) {
+const MyApp: AppType<{ session: Session | null }> = ({
+  Component,
+  pageProps: { session, ...pageProps },
+}) => {
   return (
-    <div>
+    <SessionProvider session={session}>
       <Head>
         <title>hinna-henna</title>
         <meta
@@ -25,16 +30,13 @@ function MyApp({ Component, pageProps }: AppProps) {
           Events, Corporate Events and Fundraisers. We love to extend this art
           form onto cakes and other mediums like wood, glass and candles."
         />
-        <meta
-          property="og:url"
-          content="http://hinna-henna.vercel.app.com/"
-        />
+        <meta property="og:url" content="http://hinna-henna.vercel.app.com/" />
         <meta property="og:type" content="website" />
       </Head>
-      <Navbar />
+      <Header />
       <Component {...pageProps} />
       <Footer />
-    </div>
+    </SessionProvider>
   )
 }
 
