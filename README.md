@@ -21,7 +21,7 @@ We love to extend this art form onto cakes and other mediums like wood, glass an
 1. Clone repo.
 2. `npm install`
 3. Create `.env`, reference the `.env.sample`.
-4. Initialize database `npx prisma push db`.
+4. Initialize database `npx prisma db push`.
 5. Run the project using `npm run dev`
 
 <br>
