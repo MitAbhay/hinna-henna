@@ -8,7 +8,7 @@ generator client {
 }
 
 datasource db {
-  provider = "sqlite"
+  provider = "mongodb"
   // NOTE: When using postgresql, mysql or sqlserver, uncomment the @db.Text annotations in model Account below
   // Further reading: 
   // https://next-auth.js.org/adapters/prisma#create-the-prisma-schema
@@ -17,7 +17,7 @@ datasource db {
 }
 
 model Post {
-  id   String @id @default(uuid())
+  id   String @id @default(auto()) @map("_id") @db.ObjectId
   name String
   text String
 
@@ -29,7 +29,7 @@ model Post {
 
 // Necessary for Next auth
 model Account {
-  id                String  @id @default(cuid())
+  id                String  @id @default(auto()) @map("_id") @db.ObjectId
   userId            String
   type              String
   provider          String
@@ -47,7 +47,7 @@ model Account {
 }
 
 model Session {
-  id           String   @id @default(cuid())
+  id           String   @id @default(auto()) @map("_id") @db.ObjectId
   sessionToken String   @unique
   userId       String
   expires      DateTime
@@ -55,7 +55,7 @@ model Session {
 }
 
 model User {
-  id            String    @id @default(cuid())
+  id            String    @id @default(auto()) @map("_id") @db.ObjectId
   name          String?
   email         String?   @unique
   emailVerified DateTime?
@@ -65,7 +65,7 @@ model User {
 }
 
 model VerificationToken {
-  identifier String
+  identifier String   @id @default(auto()) @map("_id") @db.ObjectId
   token      String   @unique
   expires    DateTime
 
