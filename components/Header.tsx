@@ -25,7 +25,12 @@ export default function Header() {
           </Link>
           <Link href="/services">
             <p className="cursor-pointer hover:before:content-[''] before:w-full hover:before:scale-100 hover:before:transition-all before:duration-700 before:delay-100 before:h-0.5 before:rounded-full before:bg-black font-medium before:absolute relative before:-bottom-1 before:scale-0">
-              Services
+              Mehndi Artists
+            </p>
+          </Link>
+          <Link href="/services">
+            <p className="cursor-pointer hover:before:content-[''] before:w-full hover:before:scale-100 hover:before:transition-all before:duration-700 before:delay-100 before:h-0.5 before:rounded-full before:bg-black font-medium before:absolute relative before:-bottom-1 before:scale-0">
+              Shop Now*
             </p>
           </Link>
           <Link href="/gallery">
