@@ -4,25 +4,21 @@ import { Carousel } from 'react-responsive-carousel'
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
 import Swal from 'sweetalert2'
 
-
 const Home: NextPage = () => {
-
   if (typeof window !== 'undefined') {
-    if (!localStorage.getItem("popup")) {
+    if (!localStorage.getItem('popup')) {
       Swal.fire({
         backdrop: true,
         title: 'Welcome to Hinna Henna !!',
         confirmButtonText: 'Lets Go',
         customClass: { closeButton: 'color: black' },
-
       })
-      localStorage.setItem("popup", 'viewed');
+      localStorage.setItem('popup', 'viewed')
     }
   }
 
   return (
     <div className="contentContainer">
-      
       <div className="lg:flex items-center shadow-lg mt-8 text-center">
         <div className="flex-1 p-16">
           <h1 className="lg:text-8xl text-5xl">Welcome to</h1>
@@ -30,7 +26,8 @@ const Home: NextPage = () => {
             Hinna Henna
           </h1>
           <p className="font-serif italic mt-2 ml-2">
-            A place where you can satisfy your hands and heart with hinna/mehndi.
+            A place where you can satisfy your hands and heart with
+            hinna/mehndi.
           </p>
         </div>
         <div className="lg:mr-40 my-4 rounded-sm shadow-md text-center mx-auto items-center flex justify-center">
@@ -74,10 +71,10 @@ const Home: NextPage = () => {
         </Link>
       </div>
       <div className="grid lg:grid-cols-4 grid-cols-2 max-w-7xl mx-auto my-16 gap-14 border shadow-lg p-8 items-center justify-center">
-          <img className="lg:h-80 h-40 mx-auto" src="/Images/1.jpg" />
-          <img className="lg:h-80 h-40 mx-auto" src="/Images/4.jpg" />
-          <img className="lg:h-80 h-40 mx-auto" src="/Images/1.jpg" />
-          <img className="lg:h-80 h-40 mx-auto" src="/Images/4.jpg" />
+        <img className="lg:h-80 h-40 mx-auto" src="/Images/1.jpg" />
+        <img className="lg:h-80 h-40 mx-auto" src="/Images/4.jpg" />
+        <img className="lg:h-80 h-40 mx-auto" src="/Images/1.jpg" />
+        <img className="lg:h-80 h-40 mx-auto" src="/Images/4.jpg" />
       </div>
     </div>
   )
