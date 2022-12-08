@@ -1,26 +1,35 @@
-### How to Contribute to this repository
+## How to contribute to this repository?
 
-1. Fork the repository (Click the Fork button in the top right of this page, click your Profile Image)
-2. Clone the forked repository to your local machine.
-```markdown
-git clone https://github.com/your-username/hinna-henna.git
+### `STEP 1` :  Fork [this](https://github.com/MitAbhay/hinna-henna.git) repository.
+
+### `STEP 2` :  Clone your forked copy of the project to your local machine.
+
 ```
-3. change the present working directory
-```markdown
+git clone https://github.com/<your_username>/hinna-henna.git
+```
+
+### `STEP 3` : Navigate to the project directory.
+
+```
 cd hinna-henna
 ```
-4. Add/Create your project to the specific folder as described in what you can contribute section.
-5. Make a new branch
-```markdown
+
+### `STEP 4` : Make a new branch.
+
+```
 git checkout -b branch-name
 ```
-6. Make change in the repository with the new branch.
-7. Push the changes.
-```markdown
-8. git add .
-9. git commit -m "Your commit Message"
-10. git push origin branch-name
+
+### `STEP 5` : Make change in the repository with the new branch.
+
+### `STEP 6` : Push the changes.
+
 ```
+git add .
+git commit -m "Your commit Message"
+git push origin branch-name
+```
+
 * Make a pull request.
 * Star the repository.
 
